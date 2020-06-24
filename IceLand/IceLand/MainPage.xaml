@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="White"
+             x:Class="IceLand.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ButtonBackgroundColor">#F5F9FA</Color>
+
+            <Style x:Key="HeaderFontLight" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MontserratLight}"/>
+                <Setter Property="FontSize" Value="30"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <AbsoluteLayout>
+        <ImageButton 
+            Source="List.png" 
+            Padding="10" 
+            AbsoluteLayout.LayoutBounds="20,20,50,50" 
+            BackgroundColor="White"/>
+        
+        <ImageButton 
+            Source="Shop.png" 
+            Padding="10"  
+            AbsoluteLayout.LayoutBounds="340,20,50,50" 
+            BackgroundColor="{StaticResource ButtonBackgroundColor}"/>
+    </AbsoluteLayout>
+
+</ContentPage>
