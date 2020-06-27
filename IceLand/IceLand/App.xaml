@@ -17,13 +17,13 @@
                 <On Platform="Android" Value="Montserrat-Light.ttf#Regular"/>
                 <On Platform="UWP" Value="/Assets/Fonts/Montserrat-Light.ttf#Montserrat"/>
             </OnPlatform>
-            <OnPlatform x:TypeArguments="x:String" x:Key="MontserratMedium">
+<!--            <OnPlatform x:TypeArguments="x:String" x:Key="MontserratMedium">
                 <On Platform="Android" Value="Montserrat-Medium.ttf#Regular"/>
             </OnPlatform>
 
             <OnPlatform x:TypeArguments="x:String" x:Key="MontserratLight">
                 <On Platform="Android" Value="Montserrat-Light.ttf#Regular"/>
-            </OnPlatform>
+            </OnPlatform> -->
         </ResourceDictionary>
 
     </Application.Resources>
